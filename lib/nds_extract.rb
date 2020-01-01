@@ -15,3 +15,5 @@ def directors_totals(nds)
   result = {}
   nil
 end
+
+total_value_of_spinner
