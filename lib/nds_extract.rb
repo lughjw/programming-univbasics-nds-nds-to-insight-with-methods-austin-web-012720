@@ -21,11 +21,12 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
+  # pp(nds)
   result = {}
   
-  pp(nds)
+  nds.each do |director_data|
+    result[director_data[:name]] = gross_for_director(director_data)
+  end
   
-  
-  #result
-  nil
+  result
 end
