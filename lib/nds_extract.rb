@@ -18,7 +18,7 @@ end
 def directors_totals(nds)
   result = {}
   
-  for 
+  #for 
   
   
   result
