@@ -4,6 +4,7 @@ require 'directors_database'
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
+  pp(director_data)
   
 end
 
@@ -13,7 +14,8 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
-  nil
+  
+  
+  
+  result
 end
-
-total_value_of_spinner
