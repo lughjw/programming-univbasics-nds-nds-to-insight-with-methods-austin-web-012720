@@ -21,6 +21,6 @@ def directors_totals(nds)
   #for 
   
   
-  result
+  #result
   nil
 end
