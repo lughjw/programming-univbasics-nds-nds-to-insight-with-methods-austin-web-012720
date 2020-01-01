@@ -8,7 +8,7 @@ def gross_for_director(director_data)
   #director_data[:worldwide_grosses]
   
   director_gross = 0
-  director_data[:movies].each 
+  director_data[:movies].each do 
   
 end
 
